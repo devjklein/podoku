@@ -1,5 +1,5 @@
 # Podoku 1.0.0
-# Play now here: [https://devjklein.github.io/podoku/](https://devjklein.github.io/podoku/)
+## Play now here: [https://devjklein.github.io/podoku/](https://devjklein.github.io/podoku/) ##
 
 ## CHANGELOG ##
 ### Version 1.0.0 (2018-08-15) "Public Release"
