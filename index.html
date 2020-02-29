@@ -385,8 +385,9 @@ $("#undo").attr("disabled","disabled");
 
 //  If the deck exists, and the tables slot is open, this function places 
 //  the current card and stores it's location on the table in "table"
+//  Added && !$(this).hasClass("filled") to if statement to make sure cards can't be placed on other cards from dragging or clicking (2/13/2020)
 function drop(thisObj) {
-	if (deck !== undefined && deck.length > 0 && !$(thisObj).hasClass("filled") && !$(thisObj).hasClass("drawn") && card < 26) {
+	if (deck !== undefined && deck.length > 0 && !$(thisObj).hasClass("filled") && !$(this).hasClass("filled") && !$(thisObj).hasClass("drawn") && card < 26) {
 		var currCard = deck[card];
 		if (thisObj.type == "drop") {
 			thisObj = this;
@@ -436,7 +437,7 @@ function undo() {
 		$("#" + lastCard).html("");
 		$("#" + lastCard).removeClass("filled");
 		$("#undo").addClass("unavailable");
-		$("#undo").attr("disabled","disabled");W
+		$("#undo").attr("disabled","disabled");
 		un = 0;
 		card = card - 2;
 		draw();

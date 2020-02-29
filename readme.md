@@ -2,6 +2,9 @@
 ## Play now here: [https://devjklein.github.io/podoku/](https://devjklein.github.io/podoku/) ##
 
 ## CHANGELOG ##
+### Version 1.0.1 (2020-02-13) "Gameplay Update A"
++ Added condition to if statement to fix bug where cards could be placed on other cards by dragging or clicking.
++ Removed erroneous character in code to fix bug in undo function.
 ### Version 1.0.0 (2018-08-15) "Public Release"
 + Polished phrasing
 + Fixed bug where clicking New Game after an invalid import still incremented the Current Game number
