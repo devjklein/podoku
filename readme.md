@@ -1,4 +1,4 @@
-# Podoku 1.0.0
+# Podoku 1.0.1
 ## Play now here: [https://devjklein.github.io/podoku/](https://devjklein.github.io/podoku/) ##
 
 ## CHANGELOG ##
